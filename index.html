@@ -188,13 +188,13 @@ Created by:
                          var colname = `youtubeURL-${i}`
  
                          var row = `<tr>
-                                         <td style="height: 100px">${data[i].category}</td>
-                                         <td style="height: 100px">${data[i].owner}</td>
-                                         <td style="height: 100px">${data[i].description}</td>
+                                         <td style="height: 100px; padding: 0 1.5rem;">${data[i].category}</td>
+                                         <td style="height: 100px; padding: 0 1.5rem;">${data[i].owner}</td>
+                                         <td style="height: 100px; padding: 0 1.5rem;">${data[i].description}</td>
                                          <!--<td style="height: 50px; text-align: center"><iframe src="${data[i].websiteURL}" width="450" height="250" scrolling="no"></iframe><a href="${data[i].websiteURL}" target="_blank">${data[i].websiteFriendlyName}</a></td>-->
                                          <!--<td style="height: 50px; text-align: center"><a href="${data[i].youtubeURL}" target="_blank">${data[i].youtubeFriendlyName}</a></td>-->
-                                         <td style="height: 100px"><a href="${data[i].websiteURL}" target="_blank">${data[i].websiteFriendlyName}</a></td>
-                                         <td style="height: 100px"><a href="${data[i].youtubeURL}" target="_blank">${data[i].youtubeFriendlyName}</a></td>
+                                         <td style="height: 100px; padding: 0 1.5rem;"><a href="${data[i].websiteURL}" target="_blank">${data[i].websiteFriendlyName}</a></td>
+                                         <td style="height: 100px; padding: 0 1.5rem;"><a href="${data[i].youtubeURL}" target="_blank">${data[i].youtubeFriendlyName}</a></td>
                                      </tr>`
                          table.innerHTML += row
                      }
