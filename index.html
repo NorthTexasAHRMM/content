@@ -108,7 +108,7 @@ Created by:
                      {'category':'Tutorials/Courses', 'owner':'Wise Owl', 'description':'Excel VBA, SQL Server, SSMS, SSRS, SSIS', 'websiteURL':'https://www.wiseowl.co.uk', 'websiteFriendlyName':'Wise Owl Training', 'youtubeURL':'https://www.youtube.com/c/WiseOwlTutorials/videos', 'youtubeFriendlyName':'WiseOwlTutorials - YouTube'},
                      {'category':'Tutorials/Courses', 'owner':'Microsoft', 'description':'Power BI', 'websiteURL':'https://docs.microsoft.com/en-us/learn/powerplatform/power-bi', 'websiteFriendlyName':'Microsoft Learn - Power BI', 'youtubeURL':'https://www.youtube.com/c/MSPowerBI', 'youtubeFriendlyName':'Microsoft Power BI - YouTube'},
                      {'category':'Tutorials/Courses', 'owner':'Microsoft', 'description':'Power BI', 'websiteURL':'https://docs.microsoft.com/en-us/learn/powerplatform/power-bi', 'websiteFriendlyName':'Analyze & Visualize Data with Power BI', 'youtubeURL':'https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP', 'youtubeFriendlyName':'Analyze & Visualize Data with Power BI - YouTube'},
-                     {'category':'Tutorials/Courses', 'owner':'Guy in a Cube', 'description':'Power BI', 'websiteURL':'https://www.guyinacube.com', 'websiteFriendlyName':'Guy in a Cube', 'youtubeURL':'https://www.youtube.com/c/GuyinaCube/videos', 'youtubeFriendlyName':'Guy in a Cube - YouTube'},
+                     {'category':'Tutorials/Courses', 'owner':'Guy in a Cube', 'description':'Power BI', 'websiteURL':'https://guyinacube.com', 'websiteFriendlyName':'Guy in a Cube', 'youtubeURL':'https://www.youtube.com/c/GuyinaCube/videos', 'youtubeFriendlyName':'Guy in a Cube - YouTube'},
                      {'category':'Tutorials/Courses', 'owner':'Goodwill Community Foundation, Inc.', 'description':'Microsoft Access Database Basics', 'websiteURL':'https://edu.gcfglobal.org/en/access/', 'websiteFriendlyName':'GCF - Access', 'youtubeURL':'https://www.youtube.com/playlist?list=PLpQQipWcxwt-EHfE5zXtUrLtFYnOPBRE_', 'youtubeFriendlyName':'GCFLearnFree.org - Microsoft Access - YouTube'},
                      {'category':'Tutorials/Courses', 'owner':'Computer Learning Zone', 'description':'Microsoft Access', 'websiteURL':'https://www.599cd.com/', 'websiteFriendlyName':'Computer Learning Zone', 'youtubeURL':'https://www.youtube.com/c/599CD/featured', 'youtubeFriendlyName':'Computer Learning Zone - YouTube'},
                      {'category':'Tutorials/Courses', 'owner':'SQLZoo', 'description':'SQL', 'websiteURL':'https://sqlzoo.net/', 'websiteFriendlyName':'SQLZoo', 'youtubeURL':'', 'youtubeFriendlyName':''},
@@ -191,10 +191,10 @@ Created by:
                                          <td style="height: 50px">${data[i].category}</td>
                                          <td style="height: 50px">${data[i].owner}</td>
                                          <td style="height: 50px">${data[i].description}</td>
-                                         <td style="height: 50px; text-align: center"><iframe src="${data[i].websiteURL}" width="450" height="250" scrolling="no"></iframe><a href="${data[i].websiteURL}" target="_blank">${data[i].websiteFriendlyName}</a></td>
-                                         <td style="height: 50px; text-align: center"><a href="${data[i].youtubeURL}" target="_blank">${data[i].youtubeFriendlyName}</a></td>
-                                         <!--<td style="height: 50px"><a href="${data[i].websiteURL}" target="_blank">${data[i].websiteFriendlyName}</a></td>-->
-                                         <!--<td style="height: 50px"><a href="${data[i].youtubeURL}" target="_blank">${data[i].youtubeFriendlyName}</a></td>-->
+                                         <!--<td style="height: 50px; text-align: center"><iframe src="${data[i].websiteURL}" width="450" height="250" scrolling="no"></iframe><a href="${data[i].websiteURL}" target="_blank">${data[i].websiteFriendlyName}</a></td>-->
+                                         <!--<td style="height: 50px; text-align: center"><a href="${data[i].youtubeURL}" target="_blank">${data[i].youtubeFriendlyName}</a></td>-->
+                                         <td style="height: 50px"><a href="${data[i].websiteURL}" target="_blank">${data[i].websiteFriendlyName}</a></td>
+                                         <td style="height: 50px"><a href="${data[i].youtubeURL}" target="_blank">${data[i].youtubeFriendlyName}</a></td>
                                      </tr>`
                          table.innerHTML += row
                      }
